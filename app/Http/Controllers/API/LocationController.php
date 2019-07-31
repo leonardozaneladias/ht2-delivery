@@ -42,6 +42,7 @@ class LocationController extends Controller
 
     private function checkDistances($cep, $estabs)
     {
+        $cep = str_replace("-", "", $cep);
         $response = [];
         foreach ($estabs as $estab){
 
