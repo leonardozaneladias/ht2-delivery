@@ -19,6 +19,7 @@ class CreateEstablishmentsTable extends Migration
             $table->string('cep', 8);
             $table->string('address', 30);
             $table->string('number', 10);
+            $table->string('image')->nullable();
             $table->integer('limit');
             $table->smallInteger('time_to_delivery');
             $table->decimal('latitude', 10, 8);
