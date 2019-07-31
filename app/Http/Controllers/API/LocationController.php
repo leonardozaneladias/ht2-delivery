@@ -57,6 +57,7 @@ class LocationController extends Controller
                     'id' => $estab->id,
                     'name' => $estab->name,
                     'distance' => $distance,
+                    'image' => $estab->image,
                     'text' => $text,
                     'time_to_delivery' => round($time_to_delivery),
                 ];
