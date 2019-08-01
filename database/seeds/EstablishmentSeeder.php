@@ -46,5 +46,17 @@ class EstablishmentSeeder extends Seeder
             'longitude' => '-23.5832669',
             'latitude' => '-46.5190825',
         ]);
+
+        DB::table('establishments')->insert([
+            'name' => 'UNIDADE VILA CALIFORNIA',
+            'cep' => '03203000',
+            'address' => 'Rua José Joaquim da Costa',
+            'number' => '379',
+            'image' => 'assets/img/restaurants/restaurant03.jpg',
+            'limit' => '6000',
+            'time_to_delivery' => '30',
+            'longitude' => '-23.607548',
+            'latitude' => '-46.558735',
+        ]);
     }
 }
