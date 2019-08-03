@@ -10,7 +10,7 @@ $factory->define(Product::class, function (Faker $faker) {
         'establishment_id' => rand(1,4),
         'category_id' => rand(1,5),
         'title' => $faker->company,
-        'picture' => 'http://leoztec.com/imgs/products/pizza-mussarela1.jpg',
+        'picture' => 'http://leoztech.com/imgs/products/pizza-mussarela1.jpg',
         'description' => $faker->text(50),
         'price' => $faker->numberBetween(18, 49),
         'half_to_half' => false,
