@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
+use App\Models\Category;
 use App\Product;
 use Illuminate\Http\Request;
 
@@ -15,7 +16,14 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return \App\Models\Product::all();
+        $categories = Category::all();
+        $products = \App\Models\Product::all();
+        $return = [
+            'error' => 0,
+            'categories' => $categories,
+            'data' => $products
+        ];
+        return $return;
     }
 
     /**
