@@ -16,7 +16,7 @@ class ProductTableSeeder extends Seeder
             'category_id' => 1,
             'title' => 'Pizza de Mussarela',
             'picture' => 'http://leoztech.com/imgs/products/pizza-mussarela1.jpg',
-            'description' => "blablablalbal",
+            'description' => "MOLHO DE TOMATE E MUSSARELA (2 CAMADAS)",
             'price' => 28.00,
             'half_to_half' => true,
             'status' => 1
@@ -27,7 +27,7 @@ class ProductTableSeeder extends Seeder
             'category_id' => 1,
             'title' => 'Pizza de Calabresa',
             'picture' => 'http://leoztech.com/imgs/products/calabresa1.jpg',
-            'description' => "blablablalbal",
+            'description' => "MOLHO DE TOMATE, MUSSARELA E CALABRESA",
             'price' => 28.00,
             'half_to_half' => true,
             'status' => 1
@@ -38,7 +38,7 @@ class ProductTableSeeder extends Seeder
             'category_id' => 1,
             'title' => 'Pizza de Portuguesa',
             'picture' => 'http://leoztech.com/imgs/products/pizza-portuguesa.jpg',
-            'description' => "blablablalbal",
+            'description' => "MOLHO DE TOMATE, PRESUNTO, MUSSARELA, OVOS, CEBOLA E AZEITONAS",
             'price' => 32.00,
             'half_to_half' => true,
             'status' => 1
@@ -49,7 +49,7 @@ class ProductTableSeeder extends Seeder
             'category_id' => 1,
             'title' => 'Pizza de Quatro Queijos',
             'picture' => 'http://leoztech.com/imgs/products/quatro-queijos.jpg',
-            'description' => "blablablalbal",
+            'description' => "MOLHO DE TOMATE, MUSSARELA, PROVOLONE, PARMESÃO E CATUPIRY",
             'price' => 36.00,
             'half_to_half' => true,
             'status' => 1
@@ -60,7 +60,7 @@ class ProductTableSeeder extends Seeder
             'category_id' => 1,
             'title' => 'Pizza de Marguerita',
             'picture' => 'http://leoztech.com/imgs/products/marguerita.jpg',
-            'description' => "blablablalbal",
+            'description' => "MOLHO DE TOMATE, TOMATES, PARMESÃO, MANJERICÃO, AZEITE DE OLIVA E MUSSARELA",
             'price' => 29.00,
             'half_to_half' => true,
             'status' => 1
