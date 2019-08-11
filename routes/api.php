@@ -20,6 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::namespace('API')->group(function () {
     Route::get('location/{cep}', 'LocationController@location');
     Route::get('establishment/{establishment}/products', 'ProductController@index');
+    Route::get('establishment/{establishment}/product/{product}', 'ProductController@show');
 });
 
 
